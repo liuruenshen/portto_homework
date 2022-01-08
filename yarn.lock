@@ -2888,7 +2888,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:^17.0.38":
   version: 17.0.38
   resolution: "@types/react@npm:17.0.38"
   dependencies:
@@ -2899,7 +2899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^16, @types/react@npm:^16.9.0":
+"@types/react@npm:^16":
   version: 16.14.21
   resolution: "@types/react@npm:16.14.21"
   dependencies:
@@ -9568,7 +9568,7 @@ __metadata:
     "@types/camelcase-keys": ^5.1.1
     "@types/jest": ^24.0.0
     "@types/node": ^12.0.0
-    "@types/react": ^16.9.0
+    "@types/react": ^17.0.38
     "@types/react-dom": ^16.9.0
     "@types/react-redux": ^7.1.7
     "@typescript-eslint/eslint-plugin": ^5.9.0
