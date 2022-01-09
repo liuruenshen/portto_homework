@@ -3,6 +3,9 @@ export interface AssetItem {
   tokenId: string;
   imageUrl: string;
   name: string;
+  assetContract: {
+    address: string;
+  };
 }
 
 export interface ApiOpenSeaAssetsResponse {
