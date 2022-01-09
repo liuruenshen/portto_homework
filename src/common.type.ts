@@ -1,4 +1,4 @@
-interface AssetItem {
+export interface AssetItem {
   id: number;
   tokenId: string;
   imageUrl: string;
