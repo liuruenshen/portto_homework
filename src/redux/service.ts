@@ -21,7 +21,9 @@ export const openSeaService = createApi({
         };
       },
       transformResponse(data: Type.ApiOpenSeaAssetsResponse) {
-        return camelcaseKeys(data.assets, { deep: true });
+        return camelcaseKeys(data.assets, {
+          deep: true,
+        }) as Type.ApiOpenSeaAssetsResponse["assets"];
       },
     }),
     assetDetail: builder.query<
