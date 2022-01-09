@@ -2847,21 +2847,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:*":
+"@types/react-dom@npm:*, @types/react-dom@npm:^17.0.11":
   version: 17.0.11
   resolution: "@types/react-dom@npm:17.0.11"
   dependencies:
     "@types/react": "*"
   checksum: 4d5730dffbef86c887cecad7e3cecda424ce6a64d0b5441c63b5b015d48219868660a2bb1aa15e897e565ad8867fa6b885d4358b04e1c4e589ba4c07c3fda55c
-  languageName: node
-  linkType: hard
-
-"@types/react-dom@npm:^16.9.0":
-  version: 16.9.14
-  resolution: "@types/react-dom@npm:16.9.14"
-  dependencies:
-    "@types/react": ^16
-  checksum: 68a4ee88f7a56cdbfbca24b1936b9aa5dad8b40ffbf1f047ddf990454aec6e0c9da2a01c9ae87045e95236602061646c90d02f01281533e14f1970687873030f
   languageName: node
   linkType: hard
 
@@ -2883,7 +2874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-redux@npm:^7.1.20, @types/react-redux@npm:^7.1.7":
+"@types/react-redux@npm:^7.1.20, @types/react-redux@npm:^7.1.21":
   version: 7.1.21
   resolution: "@types/react-redux@npm:7.1.21"
   dependencies:
@@ -2912,17 +2903,6 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 4079f4f959cd4a4bfaeda8b89fe8a1b1f8bdc9d87acfdc5f74a0b39cec9ec6a470724357c62778c0f063180b360c250e920c5a142f1dbcda67d9cc25a6d43a85
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^16":
-  version: 16.14.21
-  resolution: "@types/react@npm:16.14.21"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: 9660ea0a2c7ad364295c1e5abd6b98a05fd372a0f06f97850f60fcc254bcec766d19b101c0acc382746a4e0b71848d88097a1db7124e3fd441c0472fb6b3f849
   languageName: node
   linkType: hard
 
@@ -9586,9 +9566,9 @@ __metadata:
     "@types/lodash": ^4.14.178
     "@types/node": ^12.0.0
     "@types/react": ^17.0.38
-    "@types/react-dom": ^16.9.0
+    "@types/react-dom": ^17.0.11
     "@types/react-infinite-scroll-component": ^5.0.0
-    "@types/react-redux": ^7.1.7
+    "@types/react-redux": ^7.1.21
     "@typescript-eslint/eslint-plugin": ^5.9.0
     "@typescript-eslint/parser": ^5.9.0
     camelcase-keys: ^7.0.1
