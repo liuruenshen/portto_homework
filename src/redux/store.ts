@@ -1,10 +1,12 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
-import counterReducer from "../features/counter/counterSlice";
+import { openSeaService } from "./service";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    [openSeaService.reducerPath]: openSeaService.reducer,
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(openSeaService.middleware),
 });
 
 export type AppDispatch = typeof store.dispatch;

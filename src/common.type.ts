@@ -1,8 +1,11 @@
-interface AssetItem {
+export interface AssetItem {
   id: number;
   tokenId: string;
   imageUrl: string;
   name: string;
+  assetContract: {
+    address: string;
+  };
 }
 
 export interface ApiOpenSeaAssetsResponse {
@@ -27,6 +30,7 @@ export interface ApiOpenSeaAssetDetailResponse {
   description: string;
   collection: AssetCollection;
   permalink: string;
+  name: string;
 }
 
 export interface ApiOpenSeaAssetDetailRequest {
