@@ -30,6 +30,7 @@ export interface ApiOpenSeaAssetDetailResponse {
   description: string;
   collection: AssetCollection;
   permalink: string;
+  name: string;
 }
 
 export interface ApiOpenSeaAssetDetailRequest {
