@@ -30,7 +30,7 @@ export default function AssetDetail() {
   return (
     <Stack
       direction="column"
-      sx={{ width: "100%" }}
+      sx={{ width: "100%", margin: "20px 0" }}
       spacing={4}
       justifyContent="center"
       alignItems="center"
@@ -40,12 +40,12 @@ export default function AssetDetail() {
         sx={{ width: "90%", padding: "20px", boxSizing: "border-box" }}
       >
         <Stack direction="column" spacing={4} justifyContent="space-around">
-          <Box>{data.collection.name}</Box>
+          <Box component="h1">{data.collection.name}</Box>
           <Box>
             <img src={data.imageUrl} style={{ width: "90%" }}></img>
           </Box>
-          <Box>{data.name}</Box>
-          <Box>{data.description}</Box>
+          <Box component="h3">{data.name}</Box>
+          <Box component="h4">{data.description}</Box>
           <Box>
             <Link component={Button} href={data.permalink}>
               {"View on OpenSea"}
